@@ -1,10 +1,13 @@
 ---
 layout: page
 title: Llama Card Game Simulation
-description: Finding the right strategy for the LLAMA Card Game via simulation
+knit: (function(input_file, encoding) {
+  out_dir <- 'docs';
+  rmarkdown::render(input_file,
+ encoding=encoding,
+ output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
 output: html_document
 ---
-
 
 This code is to simulate playing the LLAMA Card Game. 
 Instructions for how to play can be found at [this website](https://www.amigo.games/content/ap/rule/19420--031-2019-Lama_Manual_002_LAYOUT[1].pdf)
