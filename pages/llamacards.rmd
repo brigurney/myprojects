@@ -2,7 +2,7 @@
 layout: page
 title: Llama Card Game Simulation
 description: Finding the right strategy for the LLAMA Card Game via simulation
-output: html
+output: html_document
 ---
 
 
