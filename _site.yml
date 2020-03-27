@@ -1,0 +1,12 @@
+name: "Brianne's Projects"
+output_dir: "docs"
+navbar:
+  title: "Brianne's Projects"
+  left:
+  - text: "Home"
+   href: index.html
+  - text: "Llama Cards"
+   href: pages/llamacards.html
+output:
+  html_document:
+ theme: cosmo
