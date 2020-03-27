@@ -17,5 +17,8 @@ getpoints <- function(hand) {
   return(points)
 }
 ```
-
+For example, if I have a 1,4,7 (llama), and 2, my points would be:
+```{r}
+getpoints(c(1,4,7,2))
+```
 Next,
